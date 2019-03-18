@@ -3,8 +3,6 @@
   "description": "",
   "type": "project",
   "require": {
-    "symfony/console": "^3.2",
-    "php-di/php-di": "^5.4",
     "php": ">=7.2"
   },
   "require-dev": {
