@@ -14,6 +14,9 @@ function validateForm() {
     if (wiek.length<1) {
         document.getElementById('error-wiek').innerHTML = " Please Enter Your Age *";
     }
+    if (wiek < 18 || wiek > 99){
+        document.getElementById('error-wiek').innerHTML = " The age needs to be in range 18-99 *";
+    }
     if (plec.length<1) {
         document.getElementById('error-plec').innerHTML = " Please Enter Your Sex *";
     }
