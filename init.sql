@@ -7,13 +7,11 @@ PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11;
 
 INSERT INTO `menu` (`id`, `title`, `link`, `parent`) VALUES
-(1, 'Home', '#', 0),
-(2, 'About Us', '#', 0),
-(3, 'PHP', '#', 0),
-(4, 'Wordpress', '#', 3),
-(5, 'Joomla', '#', 3),
-(6, 'Mobile Development', '#', 0),
-(7, 'Android', '#', 6),
-(8, 'iphone', '#', 6),
-(9, 'Joomla 1.5', '#', 5),
-(10, 'Joomla 2.5', '#', 5);
+INSERT INTO `menu` (`id`, `title`, `link`, `parent`) VALUES
+(1, 'Kategoria główna', '#', 0),
+(2, 'Podkategoria 1', '#', 1),
+(3, 'Podkategoria 1.1', '#', 2),
+(4, 'Podkategoria 1.2', '#', 2),
+(5, 'Podkateogria 2', '#', 1),
+(6, 'Podkategoria 2.1', '#', 5),
+(7, 'Podkategoria 2.2', '#', 5),
